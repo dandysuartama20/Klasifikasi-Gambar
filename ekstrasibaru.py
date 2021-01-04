@@ -49,7 +49,7 @@ def doThis(filenya,labelnya, namafile):
     datafitur = list(feats)
     datafitur.append(labelnya)
     
-    dataSet = "DatasetSerangga.csv"
+    dataSet = "datasetserangga.csv"
     with open(dataSet, "a") as f :
         writer = csv.writer(f)
         writer.writerow(datafitur)
